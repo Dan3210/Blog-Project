@@ -86,7 +86,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'rds-cluster', # database name in RDS is written here
-        'USER': 'user', # database master username in RDS is written here
+        'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': 'admin12345',
         'HOST': 'rds-cluster.cluster-cvci2aaimy1l.us-east-2.rds.amazonaws.com',  # database endpoint is written here
         'PORT': '3306' # database port is written here
